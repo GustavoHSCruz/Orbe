@@ -1,27 +1,17 @@
 import { useState } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Analytics } from '@vercel/analytics/react'
 import { ArrowDown, ArrowDownToLine, ArrowRight, AudioLines, Check, ChevronDown, Disc3, Download, FolderHeart, Heart, ListMusic, Menu, Monitor, Repeat2, SlidersHorizontal, X } from 'lucide-react'
 import mark from '@orbe/brand/mark.svg'
+import { DownloadSection } from './DownloadSection'
 import '@fontsource-variable/plus-jakarta-sans'
 import '@orbe/brand/tokens.css'
 import './styles.css'
 
-function downloadUrl() {
-  try {
-    const url = new URL(import.meta.env.VITE_DOWNLOAD_URL || '')
-    return url.protocol === 'https:' && !url.username && !url.password ? url.href : null
-  } catch { return null }
-}
-const installer = downloadUrl()
-
 function DownloadLink({ compact = false }: { compact?: boolean }) {
-  return installer ? (
-    <a className={`button ${compact ? 'button-small' : ''}`} href={installer} rel="noopener noreferrer">
-      <ArrowDownToLine size={18} /> {compact ? 'Baixar Orbe' : 'Baixar para Windows'}
-    </a>
-  ) : (
+  return (
     <a className={`button ${compact ? 'button-small' : ''}`} href="#download">
-      <Monitor size={18} /> Download em breve
+      <ArrowDownToLine size={18} aria-hidden="true" /> Baixar Orbe
     </a>
   )
 }
@@ -33,12 +23,12 @@ const chapters = [
 ]
 
 const faqs = [
-  ['O que é o Orbe?', 'É um aplicativo para Windows que reúne sua coleção pessoal de músicas e vídeos. Você adiciona arquivos, organiza a biblioteca e reproduz tudo no mesmo lugar. Downloads e conversão ajudam a preparar e ampliar essa coleção.'],
+  ['O que é o Orbe?', 'É um aplicativo desktop para Windows e Linux que reúne sua coleção pessoal de músicas e vídeos. Você adiciona arquivos, organiza a biblioteca e reproduz tudo no mesmo lugar. Downloads e conversão ajudam a preparar e ampliar essa coleção.'],
   ['Preciso conectar alguma conta?', 'Não. Importe seus arquivos e use a biblioteca, as playlists e o player sem conectar contas. Spotify, YouTube e Discord são integrações opcionais. Alguns links podem exigir uma sessão do serviço de origem.'],
   ['Funciona sem internet?', 'Você pode ouvir e assistir aos arquivos que já estão no computador sem internet. Downloads, importação de playlists de serviços e busca de letras online precisam de conexão. Letras locais em LRC também são aceitas.'],
   ['O Orbe baixa músicas diretamente do Spotify?', 'Não. O Orbe lê a lista de faixas de uma playlist pública, busca versões no YouTube e permite revisar as correspondências antes de baixar. Você também pode importar uma exportação oficial da conta quando a leitura pública estiver incompleta.'],
   ['Quais formatos posso converter?', 'Áudio em MP3, M4A, Opus, FLAC e WAV; vídeo em MP4 e WebM. Também é possível extrair apenas o áudio de um vídeo. O original é preservado e o resultado entra na biblioteca. Arquivos protegidos por DRM não são suportados.'],
-  ['Em quais sistemas ele está disponível?', 'A versão atual é para Windows 10 e 11, em português. Ainda não há versões para macOS, Linux ou dispositivos móveis.'],
+  ['Em quais sistemas ele está disponível?', 'O Orbe tem instalador para Windows 10 e 11 e pacotes AppImage e .deb para Linux x64. Os links estão na seção de downloads. Ainda não há versões para macOS, Android ou iOS.'],
 ]
 
 function App() {
@@ -54,6 +44,7 @@ function App() {
         <a href="#experiencia" onClick={() => setMenu(false)}>Conheça o Orbe</a>
         <a href="#recursos" onClick={() => setMenu(false)}>Recursos</a>
         <a href="#duvidas" onClick={() => setMenu(false)}>Dúvidas</a>
+        <a href="#download" onClick={() => setMenu(false)}>Downloads</a>
       </nav>
       <div className="header-download"><DownloadLink compact /></div>
     </header>
@@ -62,7 +53,7 @@ function App() {
         <h1>Tudo o que você ama.<br /><span>Na sua órbita.</span></h1>
         <p>Suas músicas. Seus vídeos. Um lugar para guardar,<br className="desktop-break" /> organizar e dar play em tudo que faz parte de você.</p>
         <div className="hero-actions"><DownloadLink /><a className="text-link" href="#experiencia">Encontre seu ritmo <ArrowDown size={16} /></a></div>
-        <span className="platform-note"><Monitor size={13} /> Feito para Windows 10 e 11 · Sem conta para começar</span>
+        <span className="platform-note"><Monitor size={13} aria-hidden="true" /> Windows e Linux · Sem conta para começar</span>
         <figure className="app-showcase">
           <div className="preview-caption"><span><span className="live-dot" /> Dentro do seu Orbe</span><span>Biblioteca pessoal de músicas e vídeos</span></div>
           <img src="/app-preview.webp" width="1440" height="960" fetchPriority="high" alt="Tela real do Orbe: biblioteca pessoal em tema escuro, com músicas, capas, playlists e player" />
@@ -96,10 +87,15 @@ function App() {
         </div>
       </section>
       <section id="duvidas" className="faq-section wrap"><div><h2>Antes de dar play.</h2><p>Algumas respostas para<br />você se sentir em casa.</p></div><div className="faq-list">{faqs.map(([question, answer]) => <details key={question}><summary>{question}<ChevronDown size={18} /></summary><p>{answer}</p></details>)}</div></section>
-      <section id="download" className="download-section wrap"><img className="download-mark" src={mark} width="100" height="100" alt="" /><h2>Faça espaço<br />para o que você ama.</h2><p>Sua coleção de músicas e vídeos.<br />No seu computador. No seu ritmo.</p><div className="download-action">{installer ? <DownloadLink /> : <span className="button unavailable" role="status"><ArrowDownToLine size={18} /> Download em breve</span>}<span className="platform-note">Windows 10 e 11 · Aplicativo desktop</span></div>{!installer && <p className="release-note">O instalador ainda não está disponível publicamente.<br />O link aparecerá aqui quando a versão for publicada.</p>}</section>
+      <DownloadSection />
     </main>
     <footer className="wrap"><a className="brand" href="#" aria-label="Orbe, voltar ao início"><img src={mark} width="32" height="32" alt="" /><span>orbe</span></a><p>Sua coleção, na sua órbita.</p><a href="#recursos">Explore os recursos <ArrowRight size={14} /></a><small>Baixe somente conteúdos que você tenha direito ou autorização para salvar.</small></footer>
   </>
 }
 
-createRoot(document.getElementById('root')!).render(<App />)
+createRoot(document.getElementById('root')!).render(
+  <>
+    <App />
+    <Analytics mode={import.meta.env.DEV ? 'development' : 'production'} />
+  </>,
+)

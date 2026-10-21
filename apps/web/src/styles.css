@@ -92,14 +92,29 @@ ul { list-style: none; padding: 0; margin: 0; }
 .faq-list details[open] summary { color: var(--orbe-accent); }
 .faq-list details[open] summary svg { transform: rotate(180deg); }
 .faq-list details p { color: #b5b0bb; font-size: 13px; padding: 0 25px 24px 0; }
-.download-section { text-align: center; padding: 70px 0 100px; border-top: 1px solid var(--orbe-border); }
-.download-mark { margin: 0 auto 27px; }
-.download-section h2 { font-size: clamp(38px, 4.6vw, 62px); }
-.download-section > p { color: #b5b0bb; margin-top: 22px; font-size: 15px; }
-.download-action { margin-top: 30px; }
-.unavailable { background: #33242b; color: #ff9aae; cursor: default; }
-.unavailable:hover { background: #33242b; transform: none; }
-.download-section .release-note { font-size: 11px; margin-top: 22px; }
+.download-section { display: grid; grid-template-columns: .9fr 1.4fr; gap: 100px; padding: 85px 0 100px; border-top: 1px solid var(--orbe-border); }
+.download-mark { margin-bottom: 30px; }
+.download-intro h2 { font-size: clamp(38px, 4vw, 56px); }
+.download-intro > p { color: #b5b0bb; margin-top: 24px; font-size: 15px; line-height: 1.9; }
+.download-context { display: block; color: var(--orbe-muted); font-size: 11px; margin-top: 28px; }
+.download-platform { padding: 30px 0; border-top: 1px solid var(--orbe-border); }
+.download-platform:first-child { padding-top: 0; border-top: 0; }
+.download-platform-heading { display: flex; align-items: center; gap: 17px; }
+.download-platform-heading > svg { color: var(--orbe-accent); flex-shrink: 0; }
+.download-platform h3 { font-size: 25px; font-weight: 600; letter-spacing: -.025em; }
+.download-platform-heading p { margin-top: 9px; font-size: 12px; color: #b5b0bb; }
+.download-platform-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.download-file { min-height: 48px; padding: 13px 19px; font-size: 13px; }
+.download-file-secondary { background: transparent; color: var(--orbe-text); border: 1px solid var(--orbe-muted); }
+.download-file-secondary:hover { background: var(--orbe-surface); border-color: var(--orbe-accent); color: var(--orbe-accent); }
+.download-platform-note { color: #b5b0bb; font-size: 12px; line-height: 1.8; max-width: 66ch; margin-top: 17px; }
+.download-missing { display: flex; flex-direction: column; gap: 3px; padding-block: 3px; font-size: 13px; color: var(--orbe-text); }
+.download-missing > span { color: var(--orbe-muted); font-size: 11px; }
+.download-other-platforms { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; padding-top: 26px; border-top: 1px solid var(--orbe-border); }
+.download-other-platforms > div { display: flex; align-items: flex-start; gap: 12px; }
+.download-other-platforms svg { color: var(--orbe-muted); flex-shrink: 0; margin-top: 1px; }
+.download-other-platforms h3 { font-size: 14px; font-weight: 550; letter-spacing: 0; }
+.download-other-platforms p { color: var(--orbe-muted); font-size: 12px; margin-top: 8px; }
 footer { border-top: 1px solid var(--orbe-border); padding-block: 36px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; column-gap: 26px; }
 footer .brand span { font-size: 25px; }
 footer > p { color: #aaa4b1; font-size: 12px; }
@@ -107,7 +122,7 @@ footer > a:last-of-type { display: flex; gap: 10px; align-items: center; font-si
 footer small { grid-column: 1 / -1; margin-top: 28px; font-size: 10px; color: #aaa4b1; }
 .skip-link { position: fixed; top: 12px; left: 12px; padding: 12px 20px; background: var(--orbe-accent); color: #19191c; z-index: 20; transform: translateY(-200%); }
 .skip-link:focus { transform: none; }
-@media (max-width: 1000px) { .wrap { width: calc(100% - 64px); } .site-header nav { gap: 20px; } .chapter-layout { gap: 30px; grid-template-columns: 1fr 1.3fr; } .tools-editorial { gap: 40px; } .faq-section { gap: 40px; } }
+@media (max-width: 1000px) { .wrap { width: calc(100% - 64px); } .site-header nav { gap: 20px; } .chapter-layout { gap: 30px; grid-template-columns: 1fr 1.3fr; } .tools-editorial { gap: 40px; } .faq-section { gap: 40px; } .download-section { gap: 48px; grid-template-columns: .8fr 1.4fr; } }
 @media (max-width: 720px) {
   .wrap { width: calc(100% - 40px); }
   .site-header { height: 84px; gap: 16px; position: relative; }
@@ -136,7 +151,8 @@ footer small { grid-column: 1 / -1; margin-top: 28px; font-size: 10px; color: #a
   .integration-list article { grid-template-columns: 1fr; gap: 15px; }.service-name { font-size: 19px; padding-right: 0; }.integration-list p { font-size: 12px; }
   .details-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 10px; }.details-strip span { font-size: 9px; gap: 7px; }.details-strip svg { width: 15px; }
   .faq-section { grid-template-columns: 1fr; gap: 20px; padding-block: 70px; }.faq-section h2 { font-size: 33px; }.faq-list summary { font-size: 13px; }
-  .download-section { padding: 50px 0 70px; }.download-mark { width: 76px; height: 76px; }.download-section h2 { font-size: 36px; }.download-section > p { font-size: 13px; }
+  .download-section { grid-template-columns: 1fr; gap: 38px; padding: 50px 0 64px; }.download-mark { width: 48px; height: 48px; margin-bottom: 23px; }.download-intro h2 { font-size: 38px; }.download-intro > p { font-size: 14px; margin-top: 20px; }.download-context { margin-top: 19px; }
+  .download-platform { padding-block: 27px; }.download-platform-heading { gap: 13px; }.download-platform h3 { font-size: 23px; }.download-platform-heading p { font-size: 11px; }.download-platform-actions { gap: 10px; margin-top: 20px; }.download-file { padding-inline: 15px; min-height: 48px; font-size: 12px; }.download-platform-note { font-size: 12px; }.download-other-platforms { gap: 18px; }
   footer { grid-template-columns: auto 1fr; gap: 20px; padding-block: 28px; }footer > p { font-size: 10px; }footer > a:last-of-type { grid-column: 1/-1; }footer small { margin-top: 5px; }
 }
 @media (prefers-reduced-motion: no-preference) { .download-mark { animation: orbit-in 1.2s cubic-bezier(.16,1,.3,1) both; animation-timeline: view(); animation-range: entry 0% entry 90%; } @keyframes orbit-in { from { clip-path: inset(0 100% 0 0); transform: rotate(-20deg); } to { clip-path: inset(0); transform: rotate(0); } } }
