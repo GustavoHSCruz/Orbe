@@ -1,0 +1,10 @@
+:root {
+  --orbe-bg: #19191c;
+  --orbe-surface: #232326;
+  --orbe-sidebar: #202023;
+  --orbe-text: #f6f5f7;
+  --orbe-muted: #a3a2aa;
+  --orbe-border: rgb(255 255 255 / 8%);
+  --orbe-accent: #ff647e;
+  --orbe-font: 'Plus Jakarta Sans Variable', sans-serif;
+}

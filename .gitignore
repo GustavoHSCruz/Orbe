@@ -1,0 +1,15 @@
+node_modules/
+out/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+resources/bin/ffmpeg-dist/
+resources/bin/*.zip
+.env
+.env.local
+
+.vercel/
+.env.*
+!.env.example

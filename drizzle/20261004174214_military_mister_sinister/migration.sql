@@ -1,0 +1,1 @@
+ALTER TABLE `downloads` ADD `format_id` text;

@@ -1,0 +1,165 @@
+{
+  "name": "orbe",
+  "version": "0.2.1",
+  "private": true,
+  "description": "Orbe — sua coleção de músicas e vídeos",
+  "main": "./out/main/index.js",
+  "author": "Orbe",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "npm run typecheck && electron-vite build",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "dist:win": "npm run build && electron-builder --win nsis",
+    "prepare": "husky",
+    "dev:web": "npm run dev --workspace @orbe/web",
+    "build:web": "npm run build --workspace @orbe/web",
+    "preview:web": "npm run preview --workspace @orbe/web",
+    "build:all": "npm run build && npm run build:web",
+    "brand:generate": "python scripts/generate_icon.py",
+    "test:web": "playwright test --config playwright.web.config.ts",
+    "dist:linux": "npm run tools:check && npm run build && node scripts/build-linux.mjs",
+    "tools:check": "node scripts/check-media-tools.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "@hookform/resolvers": "^5.9.1",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tanstack/react-query": "^5.90.0",
+    "@xhayper/discord-rpc": "^1.5.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "discord-api-types": "^0.38.56",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "fflate": "^0.8.3",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.65.0",
+    "react-icons": "^5.7.0",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^4.1.0",
+    "zustand": "^5.0.8",
+    "@orbe/brand": "*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "^1.56.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@testing-library/jest-dom": "^6.9.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.9.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.0",
+    "electron-vite": "^5.0.0",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jsdom": "^27.0.0",
+    "lint-staged": "^16.2.0",
+    "prettier": "^3.6.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.46.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md}": "prettier --write"
+  },
+  "build": {
+    "appId": "com.orbe.desktop",
+    "productName": "Orbe",
+    "directories": {
+      "output": "dist"
+    },
+    "extraResources": [
+      {
+        "from": "resources/icon.png",
+        "to": "icon.png"
+      },
+      {
+        "from": "resources/licenses/plus-jakarta-sans-OFL.txt",
+        "to": "licenses/plus-jakarta-sans-OFL.txt"
+      }
+    ],
+    "files": [
+      "out/**/*",
+      "drizzle/**/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "resources/icon.ico",
+      "target": [
+        "nsis"
+      ],
+      "extraResources": [
+        {
+          "from": "resources/icon.ico",
+          "to": "icon.ico"
+        },
+        {
+          "from": "resources/bin/yt-dlp.exe",
+          "to": "bin/yt-dlp.exe"
+        },
+        {
+          "from": "resources/bin/ffmpeg.exe",
+          "to": "bin/ffmpeg.exe"
+        },
+        {
+          "from": "resources/bin/ffprobe.exe",
+          "to": "bin/ffprobe.exe"
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "linux": {
+      "icon": "resources/icon.png",
+      "executableName": "orbe",
+      "category": "AudioVideo",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "artifactName": "Orbe-${version}-${arch}.${ext}",
+      "synopsis": "Personal music and video library",
+      "description": "Orbe brings your local music, videos, playlists, downloads and conversions together."
+    },
+    "deb": {
+      "depends": [
+        "libgtk-3-0 | libgtk-3-0t64",
+        "libnss3",
+        "libasound2 | libasound2t64",
+        "libgbm1",
+        "libxss1",
+        "libxtst6",
+        "libsecret-1-0",
+        "ffmpeg",
+        "yt-dlp"
+      ]
+    }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

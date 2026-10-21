@@ -1,0 +1,9 @@
+{
+  "name": "@orbe/brand",
+  "version": "0.2.1",
+  "private": true,
+  "exports": {
+    "./mark.svg": "./mark.svg",
+    "./tokens.css": "./tokens.css"
+  }
+}

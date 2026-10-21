@@ -1,0 +1,474 @@
+.spotify-page-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.playlist-transfer {
+  margin-top: 28px;
+  color: var(--music-text);
+}
+.transfer-muted {
+  color: var(--music-muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.transfer-spotify,
+.transfer-platform-spotify {
+  color: #1ed760;
+}
+.transfer-youtube,
+.transfer-platform-youtube {
+  color: #ff5252;
+}
+[data-theme='light'] .transfer-spotify,
+[data-theme='light'] .transfer-platform-spotify {
+  color: #087f38;
+}
+[data-theme='light'] .transfer-youtube,
+[data-theme='light'] .transfer-platform-youtube {
+  color: #cf2020;
+}
+.transfer-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  padding: 0;
+  margin: 0 0 28px;
+  list-style: none;
+}
+.transfer-steps li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 2px solid var(--music-border);
+}
+.transfer-steps li[data-state='current'] {
+  border-bottom-color: var(--music-accent);
+}
+.transfer-steps li > svg {
+  margin-left: auto;
+  color: var(--music-muted);
+  flex-shrink: 0;
+}
+.transfer-platform {
+  display: flex;
+  flex-shrink: 0;
+}
+.transfer-platform-local {
+  color: var(--music-accent);
+}
+.transfer-steps strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 650;
+}
+.transfer-steps small {
+  display: block;
+  margin-top: 4px;
+  color: var(--music-muted);
+  font-size: 12px;
+}
+.transfer-source {
+  background: var(--music-surface);
+  border-radius: 16px;
+  padding: 28px;
+}
+.playlist-transfer h2 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.playlist-transfer h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.transfer-form {
+  margin-top: 26px;
+}
+.transfer-form label,
+.transfer-manual label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.transfer-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.transfer-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1 1 280px;
+  min-width: 0;
+  border: 1px solid var(--music-border);
+  border-radius: 10px;
+  padding-left: 14px;
+  background: var(--music-bg);
+}
+.transfer-input-wrap:focus-within {
+  outline: 2px solid var(--orbe-focus);
+  outline-offset: 2px;
+}
+.playlist-transfer input {
+  flex: 1 1 240px;
+  min-width: 0;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--music-border);
+  border-radius: 10px;
+  color: var(--music-text);
+  background: var(--music-bg);
+  font-size: 13px;
+}
+.playlist-transfer input::placeholder {
+  color: var(--music-muted);
+}
+.transfer-input-wrap input {
+  border: 0;
+  background: transparent;
+}
+.transfer-input-wrap input:focus-visible {
+  outline: none;
+}
+.transfer-form-row > button {
+  flex-shrink: 0;
+}
+.transfer-form > p {
+  margin-top: 10px;
+}
+.transfer-source-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--music-border);
+  color: var(--music-muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.transfer-source-note svg {
+  flex-shrink: 0;
+}
+.transfer-message {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px 0;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.transfer-message > svg {
+  flex-shrink: 0;
+}
+.transfer-error {
+  color: #ff9bae;
+  overflow-wrap: anywhere;
+}
+.transfer-warning {
+  color: #edc17b;
+}
+[data-theme='light'] .transfer-error {
+  color: #ad1838;
+}
+[data-theme='light'] .transfer-warning {
+  color: #805009;
+}
+.transfer-playlist-heading,
+.transfer-list-heading,
+.playlist-transfer-track-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.transfer-playlist-heading {
+  margin-bottom: 24px;
+}
+.transfer-playlist-heading select {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  border: 1px solid var(--music-border);
+  border-radius: 8px;
+  padding: 8px 36px 8px 12px;
+  margin: 5px 0;
+  color: var(--music-text);
+  background: var(--music-surface);
+  font-size: 19px;
+  font-weight: 650;
+}
+.transfer-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 22px 24px;
+  border-radius: 12px;
+  background: var(--music-surface);
+}
+.transfer-next p {
+  max-width: 70ch;
+  margin-top: 6px;
+}
+.transfer-next > button {
+  flex-shrink: 0;
+}
+.transfer-working {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.transfer-help {
+  margin-top: 16px;
+}
+.transfer-help summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.transfer-help p {
+  max-width: 75ch;
+  margin: 6px 0 12px;
+}
+.transfer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.playlist-transfer-tracks {
+  margin-top: 30px;
+}
+.transfer-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.transfer-filters button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--music-muted);
+  min-height: 36px;
+}
+.transfer-filters button[aria-pressed='true'] {
+  background: var(--music-surface);
+  color: var(--music-text);
+  font-weight: 650;
+}
+.transfer-filters button:hover {
+  background: var(--music-hover);
+}
+.transfer-match-count {
+  margin-top: 6px;
+}
+.playlist-transfer-track-list {
+  max-height: 560px;
+  overflow-y: auto;
+  padding-right: 8px;
+  margin-top: 14px;
+  list-style: none;
+}
+.playlist-transfer-track {
+  display: flex;
+  gap: 18px;
+  padding: 20px 4px;
+  border-top: 1px solid var(--music-border);
+}
+.playlist-transfer-track-number {
+  width: 24px;
+  flex-shrink: 0;
+  padding-top: 3px;
+  color: var(--music-muted);
+  font-size: 12px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.playlist-transfer-track h4 {
+  font-size: 14px;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+.playlist-transfer-track-heading > button {
+  flex-shrink: 0;
+}
+.playlist-transfer-track-status {
+  margin-top: 7px;
+  font-size: 12px;
+  color: var(--music-muted);
+}
+.playlist-transfer-track-status.transfer-warning {
+  color: #edc17b;
+}
+[data-theme='light'] .playlist-transfer-track-status.transfer-warning {
+  color: #805009;
+}
+.transfer-chosen {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--music-muted);
+  overflow-wrap: anywhere;
+}
+.transfer-chosen svg {
+  flex-shrink: 0;
+}
+.transfer-review {
+  margin-top: 16px;
+}
+.transfer-candidate {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--music-border);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.transfer-candidate > svg {
+  flex-shrink: 0;
+}
+.transfer-candidate button {
+  flex-shrink: 0;
+}
+.transfer-manual {
+  margin: 18px 0 12px;
+}
+.transfer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid var(--music-border);
+}
+.transfer-delete {
+  max-width: 470px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.transfer-delete .transfer-actions {
+  margin-top: 10px;
+}
+.spotify-account {
+  margin-top: 32px;
+  border-top: 1px solid var(--music-border);
+}
+.spotify-account > summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+  cursor: pointer;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.spotify-account > summary > svg:last-child {
+  margin-left: auto;
+}
+.spotify-account[open] > summary > svg:last-child,
+.transfer-help[open] summary svg {
+  transform: rotate(180deg);
+}
+.spotify-account-body {
+  padding-bottom: 20px;
+}
+.playlist-transfer summary:focus-visible,
+.spotify-account summary:focus-visible {
+  outline: 2px solid var(--orbe-focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+@media (max-width: 1100px) {
+  .transfer-next {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .transfer-steps {
+    gap: 12px;
+  }
+  .transfer-steps li {
+    gap: 8px;
+  }
+  .transfer-list-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media (max-width: 640px) {
+  .spotify-page-heading {
+    align-items: flex-start;
+  }
+  .spotify-page-heading h1 {
+    font-size: 24px;
+  }
+  .transfer-steps {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 20px;
+  }
+  .transfer-steps li {
+    padding: 12px 0;
+  }
+  .transfer-steps small {
+    display: inline;
+    margin-left: 8px;
+  }
+  .transfer-steps strong {
+    display: inline;
+  }
+  .transfer-source,
+  .transfer-next {
+    padding: 20px;
+  }
+  .transfer-playlist-heading,
+  .transfer-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .playlist-transfer-track {
+    gap: 10px;
+  }
+  .playlist-transfer-track-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .transfer-candidate {
+    flex-wrap: wrap;
+  }
+  .transfer-candidate > div {
+    flex-basis: calc(100% - 32px);
+  }
+  .playlist-transfer-track-list {
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+  }
+  .transfer-next > button,
+  .transfer-form-row > button {
+    height: auto;
+    min-height: 44px;
+    white-space: normal;
+  }
+}

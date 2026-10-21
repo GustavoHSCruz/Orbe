@@ -1,0 +1,3032 @@
+{
+  "errors": [],
+  "metrics": [
+    {
+      "name": "onboarding-desktop",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Pular introdução",
+          "size": [
+            129,
+            36
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            245,
+            48
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Baixar por link",
+          "size": [
+            245,
+            48
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Começar",
+          "size": [
+            129,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "onboarding-compact",
+      "viewport": [
+        1008,
+        721
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Pular introdução",
+          "size": [
+            129,
+            36
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            245,
+            48
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Baixar por link",
+          "size": [
+            245,
+            48
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Começar",
+          "size": [
+            129,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "onboarding-folder",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Escolher pasta de downloads",
+          "size": [
+            166,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Voltar",
+          "size": [
+            82,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Continuar",
+          "size": [
+            133,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "onboarding-ready",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Pular",
+          "size": [
+            76,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir Orbe",
+          "size": [
+            136,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "home-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ver tudo",
+          "size": [
+            103,
+            36
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Analisar",
+          "size": [
+            95,
+            36
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "download-dialog",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ver tudo",
+          "size": [
+            103,
+            36
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Analisar",
+          "size": [
+            95,
+            36
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fechar",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Continuar",
+          "size": [
+            109,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "playlists-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Nova playlist",
+          "size": [
+            153,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Criar playlist",
+          "size": [
+            151,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Ir para a biblioteca",
+          "size": [
+            141,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "integrations-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar Spotify",
+          "size": [
+            159,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir Spotify",
+          "size": [
+            149,
+            44
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar YouTube",
+          "size": [
+            167,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir playlists",
+          "size": [
+            155,
+            44
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Salvar alterações",
+          "size": [
+            182,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "settings-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar pasta",
+          "size": [
+            172,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar agora",
+          "size": [
+            164,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Localizar pasta",
+          "size": [
+            142,
+            36
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            126,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Salvar alterações",
+          "size": [
+            183,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "converter-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "library-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Pastas de mídia",
+          "size": [
+            171,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            192,
+            44
+          ],
+          "bg": "rgb(191, 29, 61)",
+          "border": "rgb(191, 29, 61)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Todas",
+          "size": [
+            87,
+            36
+          ],
+          "bg": "color(srgb 0.268392 0.195451 0.224941)",
+          "border": "rgb(255, 100, 126)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Músicas",
+          "size": [
+            101,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Vídeos",
+          "size": [
+            94,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritos",
+          "size": [
+            108,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Horizonte",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Horizonte a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 154, 174)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Devagar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Devagar a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 154, 174)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "player-dark",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Pastas de mídia",
+          "size": [
+            171,
+            44
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            192,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Todas",
+          "size": [
+            87,
+            36
+          ],
+          "bg": "color(srgb 0.268392 0.195451 0.224941)",
+          "border": "rgb(255, 100, 126)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Músicas",
+          "size": [
+            101,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Vídeos",
+          "size": [
+            94,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritos",
+          "size": [
+            108,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Horizonte",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Horizonte a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 154, 174)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Devagar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Devagar a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 154, 174)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(53, 36, 43)",
+          "border": "rgb(155, 83, 100)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 100, 126)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(246, 245, 247)",
+          "border": "rgba(0, 0, 0, 0)",
+          "borderWidth": "1px",
+          "color": "rgb(25, 25, 28)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher mídia",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgba(255, 255, 255, 0.08)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "0px",
+          "disabled": false
+        },
+        {
+          "label": "Novo download",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgba(255, 255, 255, 0.08)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "0px",
+          "disabled": false
+        },
+        {
+          "label": "Tela cheia",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgba(255, 255, 255, 0.08)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "0px",
+          "disabled": false
+        },
+        {
+          "label": "Recolher player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgba(255, 255, 255, 0.08)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "0px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            60,
+            60
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "1px",
+          "color": "rgb(38, 35, 43)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(43, 43, 48)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Buscar letra",
+          "size": [
+            122,
+            36
+          ],
+          "bg": "rgb(54, 54, 60)",
+          "border": "rgb(100, 100, 110)",
+          "borderWidth": "1px",
+          "color": "rgb(246, 245, 247)",
+          "font": "13px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "settings-light",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar pasta",
+          "size": [
+            172,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar agora",
+          "size": [
+            164,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Localizar pasta",
+          "size": [
+            142,
+            36
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            126,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Salvar alterações",
+          "size": [
+            183,
+            44
+          ],
+          "bg": "rgb(191, 29, 61)",
+          "border": "rgb(191, 29, 61)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "library-light",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Pastas de mídia",
+          "size": [
+            171,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            192,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Todas",
+          "size": [
+            87,
+            36
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(191, 29, 61)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Músicas",
+          "size": [
+            101,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Vídeos",
+          "size": [
+            94,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritos",
+          "size": [
+            108,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Horizonte",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Horizonte a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(169, 28, 57)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(191, 29, 61)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Devagar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Devagar a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(169, 28, 57)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(191, 29, 61)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "playlists-light",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Nova playlist",
+          "size": [
+            153,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Criar playlist",
+          "size": [
+            151,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Ir para a biblioteca",
+          "size": [
+            141,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "integrations-light",
+      "viewport": [
+        1424,
+        921
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar Spotify",
+          "size": [
+            159,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir Spotify",
+          "size": [
+            149,
+            44
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar YouTube",
+          "size": [
+            167,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir playlists",
+          "size": [
+            155,
+            44
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Salvar alterações",
+          "size": [
+            182,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "integrations-compact",
+      "viewport": [
+        1008,
+        721
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar Spotify",
+          "size": [
+            159,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir Spotify",
+          "size": [
+            149,
+            44
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Conectar YouTube",
+          "size": [
+            167,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": true
+        },
+        {
+          "label": "Abrir playlists",
+          "size": [
+            155,
+            44
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Escolher",
+          "size": [
+            125,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Salvar alterações",
+          "size": [
+            182,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "name": "library-compact",
+      "viewport": [
+        1008,
+        721
+      ],
+      "overflow": false,
+      "buttons": [
+        {
+          "label": "Novo download Ctrl+N",
+          "size": [
+            148,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Verificar arquivos",
+          "size": [
+            134,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Pastas de mídia",
+          "size": [
+            171,
+            44
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar arquivos",
+          "size": [
+            192,
+            44
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Todas",
+          "size": [
+            87,
+            36
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(191, 29, 61)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Músicas",
+          "size": [
+            101,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Vídeos",
+          "size": [
+            94,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritos",
+          "size": [
+            108,
+            36
+          ],
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Horizonte",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Horizonte a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(169, 28, 57)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(191, 29, 61)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir Devagar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(217, 43, 75)",
+          "border": "rgb(217, 43, 75)",
+          "borderWidth": "1px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Favoritar",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Adicionar Devagar a uma playlist",
+          "size": [
+            32,
+            32
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Abrir pasta",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Remover da biblioteca",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(169, 28, 57)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Excluir arquivo",
+          "size": [
+            216,
+            38
+          ],
+          "bg": "rgb(255, 244, 246)",
+          "border": "rgb(203, 125, 142)",
+          "borderWidth": "1px",
+          "color": "rgb(191, 29, 61)",
+          "font": "13px",
+          "disabled": false
+        },
+        {
+          "label": "Ativar aleatório",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Anterior",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Repetição: off",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Reproduzir",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(36, 36, 40)",
+          "border": "rgb(255, 255, 255)",
+          "borderWidth": "0px",
+          "color": "rgb(255, 255, 255)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Próxima",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Fila de reprodução",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        },
+        {
+          "label": "Expandir player",
+          "size": [
+            40,
+            40
+          ],
+          "bg": "rgb(245, 245, 248)",
+          "border": "rgb(161, 161, 173)",
+          "borderWidth": "1px",
+          "color": "rgb(36, 36, 40)",
+          "font": "14px",
+          "disabled": false
+        }
+      ]
+    }
+  ]
+}

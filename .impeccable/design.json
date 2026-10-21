@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T22:48:27.192855+00:00",
+  "title": "Design System: Orbe",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "canonical": "#ff647e",
+        "tonalRamp": [
+          "oklch(15% 0.1888 13.23)",
+          "oklch(26% 0.1888 13.23)",
+          "oklch(38% 0.1888 13.23)",
+          "oklch(49% 0.1888 13.23)",
+          "oklch(61% 0.1888 13.23)",
+          "oklch(72% 0.1888 13.23)",
+          "oklch(84% 0.1888 13.23)",
+          "oklch(95% 0.1888 13.23)"
+        ]
+      },
+      "primary-hover-web": {
+        "role": "primary",
+        "displayName": "Primary Hover Web",
+        "canonical": "#ff8ca0",
+        "tonalRamp": [
+          "oklch(15% 0.1399 9.82)",
+          "oklch(26% 0.1399 9.82)",
+          "oklch(38% 0.1399 9.82)",
+          "oklch(49% 0.1399 9.82)",
+          "oklch(61% 0.1399 9.82)",
+          "oklch(72% 0.1399 9.82)",
+          "oklch(84% 0.1399 9.82)",
+          "oklch(95% 0.1399 9.82)"
+        ]
+      },
+      "primary-action-desktop": {
+        "role": "primary",
+        "displayName": "Primary Action Desktop",
+        "canonical": "#d92b4b",
+        "tonalRamp": [
+          "oklch(15% 0.2067 17.34)",
+          "oklch(26% 0.2067 17.34)",
+          "oklch(38% 0.2067 17.34)",
+          "oklch(49% 0.2067 17.34)",
+          "oklch(61% 0.2067 17.34)",
+          "oklch(72% 0.2067 17.34)",
+          "oklch(84% 0.2067 17.34)",
+          "oklch(95% 0.2067 17.34)"
+        ]
+      },
+      "primary-action-desktop-hover": {
+        "role": "primary",
+        "displayName": "Primary Action Desktop Hover",
+        "canonical": "#bf1d3d",
+        "tonalRamp": [
+          "oklch(15% 0.1930 17.81)",
+          "oklch(26% 0.1930 17.81)",
+          "oklch(38% 0.1930 17.81)",
+          "oklch(49% 0.1930 17.81)",
+          "oklch(61% 0.1930 17.81)",
+          "oklch(72% 0.1930 17.81)",
+          "oklch(84% 0.1930 17.81)",
+          "oklch(95% 0.1930 17.81)"
+        ]
+      },
+      "primary-ink-web": {
+        "role": "primary",
+        "displayName": "Primary Ink Web",
+        "canonical": "#201318",
+        "tonalRamp": [
+          "oklch(15% 0.0232 354.54)",
+          "oklch(26% 0.0232 354.54)",
+          "oklch(38% 0.0232 354.54)",
+          "oklch(49% 0.0232 354.54)",
+          "oklch(61% 0.0232 354.54)",
+          "oklch(72% 0.0232 354.54)",
+          "oklch(84% 0.0232 354.54)",
+          "oklch(95% 0.0232 354.54)"
+        ]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Neutral Bg",
+        "canonical": "#19191c",
+        "tonalRamp": [
+          "oklch(15% 0.0058 285.90)",
+          "oklch(26% 0.0058 285.90)",
+          "oklch(38% 0.0058 285.90)",
+          "oklch(49% 0.0058 285.90)",
+          "oklch(61% 0.0058 285.90)",
+          "oklch(72% 0.0058 285.90)",
+          "oklch(84% 0.0058 285.90)",
+          "oklch(95% 0.0058 285.90)"
+        ]
+      },
+      "neutral-surface": {
+        "role": "neutral",
+        "displayName": "Neutral Surface",
+        "canonical": "#232326",
+        "tonalRamp": [
+          "oklch(15% 0.0056 286.00)",
+          "oklch(26% 0.0056 286.00)",
+          "oklch(38% 0.0056 286.00)",
+          "oklch(49% 0.0056 286.00)",
+          "oklch(61% 0.0056 286.00)",
+          "oklch(72% 0.0056 286.00)",
+          "oklch(84% 0.0056 286.00)",
+          "oklch(95% 0.0056 286.00)"
+        ]
+      },
+      "neutral-sidebar": {
+        "role": "neutral",
+        "displayName": "Neutral Sidebar",
+        "canonical": "#202023",
+        "tonalRamp": [
+          "oklch(15% 0.0056 285.98)",
+          "oklch(26% 0.0056 285.98)",
+          "oklch(38% 0.0056 285.98)",
+          "oklch(49% 0.0056 285.98)",
+          "oklch(61% 0.0056 285.98)",
+          "oklch(72% 0.0056 285.98)",
+          "oklch(84% 0.0056 285.98)",
+          "oklch(95% 0.0056 285.98)"
+        ]
+      },
+      "neutral-text": {
+        "role": "neutral",
+        "displayName": "Neutral Text",
+        "canonical": "#f6f5f7",
+        "tonalRamp": [
+          "oklch(15% 0.0028 308.43)",
+          "oklch(26% 0.0028 308.43)",
+          "oklch(38% 0.0028 308.43)",
+          "oklch(49% 0.0028 308.43)",
+          "oklch(61% 0.0028 308.43)",
+          "oklch(72% 0.0028 308.43)",
+          "oklch(84% 0.0028 308.43)",
+          "oklch(95% 0.0028 308.43)"
+        ]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Neutral Muted",
+        "canonical": "#a3a2aa",
+        "tonalRamp": [
+          "oklch(15% 0.0115 291.86)",
+          "oklch(26% 0.0115 291.86)",
+          "oklch(38% 0.0115 291.86)",
+          "oklch(49% 0.0115 291.86)",
+          "oklch(61% 0.0115 291.86)",
+          "oklch(72% 0.0115 291.86)",
+          "oklch(84% 0.0115 291.86)",
+          "oklch(95% 0.0115 291.86)"
+        ]
+      },
+      "neutral-border": {
+        "role": "neutral",
+        "displayName": "Neutral Border",
+        "canonical": "rgb(255 255 255 / 8%)",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88 / 0.08)",
+          "oklch(26% 0.0000 89.88 / 0.08)",
+          "oklch(38% 0.0000 89.88 / 0.08)",
+          "oklch(49% 0.0000 89.88 / 0.08)",
+          "oklch(61% 0.0000 89.88 / 0.08)",
+          "oklch(72% 0.0000 89.88 / 0.08)",
+          "oklch(84% 0.0000 89.88 / 0.08)",
+          "oklch(95% 0.0000 89.88 / 0.08)"
+        ]
+      },
+      "neutral-hover": {
+        "role": "neutral",
+        "displayName": "Neutral Hover",
+        "canonical": "rgb(255 255 255 / 5%)",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88 / 0.05)",
+          "oklch(26% 0.0000 89.88 / 0.05)",
+          "oklch(38% 0.0000 89.88 / 0.05)",
+          "oklch(49% 0.0000 89.88 / 0.05)",
+          "oklch(61% 0.0000 89.88 / 0.05)",
+          "oklch(72% 0.0000 89.88 / 0.05)",
+          "oklch(84% 0.0000 89.88 / 0.05)",
+          "oklch(95% 0.0000 89.88 / 0.05)"
+        ]
+      },
+      "web-copy": {
+        "role": "neutral",
+        "displayName": "Web Copy",
+        "canonical": "#b5b0bb",
+        "tonalRamp": [
+          "oklch(15% 0.0164 306.34)",
+          "oklch(26% 0.0164 306.34)",
+          "oklch(38% 0.0164 306.34)",
+          "oklch(49% 0.0164 306.34)",
+          "oklch(61% 0.0164 306.34)",
+          "oklch(72% 0.0164 306.34)",
+          "oklch(84% 0.0164 306.34)",
+          "oklch(95% 0.0164 306.34)"
+        ]
+      },
+      "unavailable-bg": {
+        "role": "neutral",
+        "displayName": "Unavailable Bg",
+        "canonical": "#33242b",
+        "tonalRamp": [
+          "oklch(15% 0.0256 349.23)",
+          "oklch(26% 0.0256 349.23)",
+          "oklch(38% 0.0256 349.23)",
+          "oklch(49% 0.0256 349.23)",
+          "oklch(61% 0.0256 349.23)",
+          "oklch(72% 0.0256 349.23)",
+          "oklch(84% 0.0256 349.23)",
+          "oklch(95% 0.0256 349.23)"
+        ]
+      },
+      "unavailable-text": {
+        "role": "primary",
+        "displayName": "Unavailable Text",
+        "canonical": "#ff9aae",
+        "tonalRamp": [
+          "oklch(15% 0.1224 7.44)",
+          "oklch(26% 0.1224 7.44)",
+          "oklch(38% 0.1224 7.44)",
+          "oklch(49% 0.1224 7.44)",
+          "oklch(61% 0.1224 7.44)",
+          "oklch(72% 0.1224 7.44)",
+          "oklch(84% 0.1224 7.44)",
+          "oklch(95% 0.1224 7.44)"
+        ]
+      },
+      "light-bg": {
+        "role": "neutral",
+        "displayName": "Light Bg",
+        "canonical": "#fcfcfd",
+        "tonalRamp": [
+          "oklch(15% 0.0013 286.38)",
+          "oklch(26% 0.0013 286.38)",
+          "oklch(38% 0.0013 286.38)",
+          "oklch(49% 0.0013 286.38)",
+          "oklch(61% 0.0013 286.38)",
+          "oklch(72% 0.0013 286.38)",
+          "oklch(84% 0.0013 286.38)",
+          "oklch(95% 0.0013 286.38)"
+        ]
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "Light Surface",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "light-sidebar": {
+        "role": "neutral",
+        "displayName": "Light Sidebar",
+        "canonical": "#f2f2f5",
+        "tonalRamp": [
+          "oklch(15% 0.0040 286.32)",
+          "oklch(26% 0.0040 286.32)",
+          "oklch(38% 0.0040 286.32)",
+          "oklch(49% 0.0040 286.32)",
+          "oklch(61% 0.0040 286.32)",
+          "oklch(72% 0.0040 286.32)",
+          "oklch(84% 0.0040 286.32)",
+          "oklch(95% 0.0040 286.32)"
+        ]
+      },
+      "light-text": {
+        "role": "neutral",
+        "displayName": "Light Text",
+        "canonical": "#242428",
+        "tonalRamp": [
+          "oklch(15% 0.0074 285.88)",
+          "oklch(26% 0.0074 285.88)",
+          "oklch(38% 0.0074 285.88)",
+          "oklch(49% 0.0074 285.88)",
+          "oklch(61% 0.0074 285.88)",
+          "oklch(72% 0.0074 285.88)",
+          "oklch(84% 0.0074 285.88)",
+          "oklch(95% 0.0074 285.88)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "Light Muted",
+        "canonical": "#6d6d78",
+        "tonalRamp": [
+          "oklch(15% 0.0170 285.82)",
+          "oklch(26% 0.0170 285.82)",
+          "oklch(38% 0.0170 285.82)",
+          "oklch(49% 0.0170 285.82)",
+          "oklch(61% 0.0170 285.82)",
+          "oklch(72% 0.0170 285.82)",
+          "oklch(84% 0.0170 285.82)",
+          "oklch(95% 0.0170 285.82)"
+        ]
+      },
+      "light-border": {
+        "role": "neutral",
+        "displayName": "Light Border",
+        "canonical": "rgb(30 30 40 / 9%)",
+        "tonalRamp": [
+          "oklch(15% 0.0190 284.87 / 0.09)",
+          "oklch(26% 0.0190 284.87 / 0.09)",
+          "oklch(38% 0.0190 284.87 / 0.09)",
+          "oklch(49% 0.0190 284.87 / 0.09)",
+          "oklch(61% 0.0190 284.87 / 0.09)",
+          "oklch(72% 0.0190 284.87 / 0.09)",
+          "oklch(84% 0.0190 284.87 / 0.09)",
+          "oklch(95% 0.0190 284.87 / 0.09)"
+        ]
+      },
+      "light-accent": {
+        "role": "primary",
+        "displayName": "Light Accent",
+        "canonical": "#bf1d3d",
+        "tonalRamp": [
+          "oklch(15% 0.1930 17.81)",
+          "oklch(26% 0.1930 17.81)",
+          "oklch(38% 0.1930 17.81)",
+          "oklch(49% 0.1930 17.81)",
+          "oklch(61% 0.1930 17.81)",
+          "oklch(72% 0.1930 17.81)",
+          "oklch(84% 0.1930 17.81)",
+          "oklch(95% 0.1930 17.81)"
+        ]
+      },
+      "light-hover": {
+        "role": "neutral",
+        "displayName": "Light Hover",
+        "canonical": "rgb(30 30 40 / 4%)",
+        "tonalRamp": [
+          "oklch(15% 0.0190 284.87 / 0.04)",
+          "oklch(26% 0.0190 284.87 / 0.04)",
+          "oklch(38% 0.0190 284.87 / 0.04)",
+          "oklch(49% 0.0190 284.87 / 0.04)",
+          "oklch(61% 0.0190 284.87 / 0.04)",
+          "oklch(72% 0.0190 284.87 / 0.04)",
+          "oklch(84% 0.0190 284.87 / 0.04)",
+          "oklch(95% 0.0190 284.87 / 0.04)"
+        ]
+      },
+      "light-focus": {
+        "role": "primary",
+        "displayName": "Light Focus",
+        "canonical": "#cf2546",
+        "tonalRamp": [
+          "oklch(15% 0.2020 17.27)",
+          "oklch(26% 0.2020 17.27)",
+          "oklch(38% 0.2020 17.27)",
+          "oklch(49% 0.2020 17.27)",
+          "oklch(61% 0.2020 17.27)",
+          "oklch(72% 0.2020 17.27)",
+          "oklch(84% 0.2020 17.27)",
+          "oklch(95% 0.2020 17.27)"
+        ]
+      },
+      "control-text": {
+        "role": "neutral",
+        "displayName": "Control Text",
+        "canonical": "#f6f5f7",
+        "tonalRamp": [
+          "oklch(15% 0.0028 308.43)",
+          "oklch(26% 0.0028 308.43)",
+          "oklch(38% 0.0028 308.43)",
+          "oklch(49% 0.0028 308.43)",
+          "oklch(61% 0.0028 308.43)",
+          "oklch(72% 0.0028 308.43)",
+          "oklch(84% 0.0028 308.43)",
+          "oklch(95% 0.0028 308.43)"
+        ]
+      },
+      "control-surface": {
+        "role": "neutral",
+        "displayName": "Control Surface",
+        "canonical": "#36363c",
+        "tonalRamp": [
+          "oklch(15% 0.0104 285.82)",
+          "oklch(26% 0.0104 285.82)",
+          "oklch(38% 0.0104 285.82)",
+          "oklch(49% 0.0104 285.82)",
+          "oklch(61% 0.0104 285.82)",
+          "oklch(72% 0.0104 285.82)",
+          "oklch(84% 0.0104 285.82)",
+          "oklch(95% 0.0104 285.82)"
+        ]
+      },
+      "control-surface-hover": {
+        "role": "neutral",
+        "displayName": "Control Surface Hover",
+        "canonical": "#43434b",
+        "tonalRamp": [
+          "oklch(15% 0.0134 285.75)",
+          "oklch(26% 0.0134 285.75)",
+          "oklch(38% 0.0134 285.75)",
+          "oklch(49% 0.0134 285.75)",
+          "oklch(61% 0.0134 285.75)",
+          "oklch(72% 0.0134 285.75)",
+          "oklch(84% 0.0134 285.75)",
+          "oklch(95% 0.0134 285.75)"
+        ]
+      },
+      "control-subtle": {
+        "role": "neutral",
+        "displayName": "Control Subtle",
+        "canonical": "#2b2b30",
+        "tonalRamp": [
+          "oklch(15% 0.0090 285.83)",
+          "oklch(26% 0.0090 285.83)",
+          "oklch(38% 0.0090 285.83)",
+          "oklch(49% 0.0090 285.83)",
+          "oklch(61% 0.0090 285.83)",
+          "oklch(72% 0.0090 285.83)",
+          "oklch(84% 0.0090 285.83)",
+          "oklch(95% 0.0090 285.83)"
+        ]
+      },
+      "control-subtle-hover": {
+        "role": "neutral",
+        "displayName": "Control Subtle Hover",
+        "canonical": "#39393f",
+        "tonalRamp": [
+          "oklch(15% 0.0103 285.85)",
+          "oklch(26% 0.0103 285.85)",
+          "oklch(38% 0.0103 285.85)",
+          "oklch(49% 0.0103 285.85)",
+          "oklch(61% 0.0103 285.85)",
+          "oklch(72% 0.0103 285.85)",
+          "oklch(84% 0.0103 285.85)",
+          "oklch(95% 0.0103 285.85)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "canonical": "#64646e",
+        "tonalRamp": [
+          "oklch(15% 0.0157 285.83)",
+          "oklch(26% 0.0157 285.83)",
+          "oklch(38% 0.0157 285.83)",
+          "oklch(49% 0.0157 285.83)",
+          "oklch(61% 0.0157 285.83)",
+          "oklch(72% 0.0157 285.83)",
+          "oklch(84% 0.0157 285.83)",
+          "oklch(95% 0.0157 285.83)"
+        ]
+      },
+      "control-border-hover": {
+        "role": "neutral",
+        "displayName": "Control Border Hover",
+        "canonical": "#898994",
+        "tonalRamp": [
+          "oklch(15% 0.0163 285.93)",
+          "oklch(26% 0.0163 285.93)",
+          "oklch(38% 0.0163 285.93)",
+          "oklch(49% 0.0163 285.93)",
+          "oklch(61% 0.0163 285.93)",
+          "oklch(72% 0.0163 285.93)",
+          "oklch(84% 0.0163 285.93)",
+          "oklch(95% 0.0163 285.93)"
+        ]
+      },
+      "control-danger": {
+        "role": "primary",
+        "displayName": "Control Danger",
+        "canonical": "#ff9aae",
+        "tonalRamp": [
+          "oklch(15% 0.1224 7.44)",
+          "oklch(26% 0.1224 7.44)",
+          "oklch(38% 0.1224 7.44)",
+          "oklch(49% 0.1224 7.44)",
+          "oklch(61% 0.1224 7.44)",
+          "oklch(72% 0.1224 7.44)",
+          "oklch(84% 0.1224 7.44)",
+          "oklch(95% 0.1224 7.44)"
+        ]
+      },
+      "control-danger-bg": {
+        "role": "primary",
+        "displayName": "Control Danger Bg",
+        "canonical": "#35242b",
+        "tonalRamp": [
+          "oklch(15% 0.0283 352.60)",
+          "oklch(26% 0.0283 352.60)",
+          "oklch(38% 0.0283 352.60)",
+          "oklch(49% 0.0283 352.60)",
+          "oklch(61% 0.0283 352.60)",
+          "oklch(72% 0.0283 352.60)",
+          "oklch(84% 0.0283 352.60)",
+          "oklch(95% 0.0283 352.60)"
+        ]
+      },
+      "control-danger-border": {
+        "role": "primary",
+        "displayName": "Control Danger Border",
+        "canonical": "#9b5364",
+        "tonalRamp": [
+          "oklch(15% 0.0970 5.82)",
+          "oklch(26% 0.0970 5.82)",
+          "oklch(38% 0.0970 5.82)",
+          "oklch(49% 0.0970 5.82)",
+          "oklch(61% 0.0970 5.82)",
+          "oklch(72% 0.0970 5.82)",
+          "oklch(84% 0.0970 5.82)",
+          "oklch(95% 0.0970 5.82)"
+        ]
+      },
+      "light-control-text": {
+        "role": "neutral",
+        "displayName": "Light Control Text",
+        "canonical": "#242428",
+        "tonalRamp": [
+          "oklch(15% 0.0074 285.88)",
+          "oklch(26% 0.0074 285.88)",
+          "oklch(38% 0.0074 285.88)",
+          "oklch(49% 0.0074 285.88)",
+          "oklch(61% 0.0074 285.88)",
+          "oklch(72% 0.0074 285.88)",
+          "oklch(84% 0.0074 285.88)",
+          "oklch(95% 0.0074 285.88)"
+        ]
+      },
+      "light-control-surface": {
+        "role": "neutral",
+        "displayName": "Light Control Surface",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "light-control-surface-hover": {
+        "role": "neutral",
+        "displayName": "Light Control Surface Hover",
+        "canonical": "#ebebf0",
+        "tonalRamp": [
+          "oklch(15% 0.0067 286.27)",
+          "oklch(26% 0.0067 286.27)",
+          "oklch(38% 0.0067 286.27)",
+          "oklch(49% 0.0067 286.27)",
+          "oklch(61% 0.0067 286.27)",
+          "oklch(72% 0.0067 286.27)",
+          "oklch(84% 0.0067 286.27)",
+          "oklch(95% 0.0067 286.27)"
+        ]
+      },
+      "light-control-subtle": {
+        "role": "neutral",
+        "displayName": "Light Control Subtle",
+        "canonical": "#f5f5f8",
+        "tonalRamp": [
+          "oklch(15% 0.0040 286.33)",
+          "oklch(26% 0.0040 286.33)",
+          "oklch(38% 0.0040 286.33)",
+          "oklch(49% 0.0040 286.33)",
+          "oklch(61% 0.0040 286.33)",
+          "oklch(72% 0.0040 286.33)",
+          "oklch(84% 0.0040 286.33)",
+          "oklch(95% 0.0040 286.33)"
+        ]
+      },
+      "light-control-subtle-hover": {
+        "role": "neutral",
+        "displayName": "Light Control Subtle Hover",
+        "canonical": "#e8e8ee",
+        "tonalRamp": [
+          "oklch(15% 0.0080 286.24)",
+          "oklch(26% 0.0080 286.24)",
+          "oklch(38% 0.0080 286.24)",
+          "oklch(49% 0.0080 286.24)",
+          "oklch(61% 0.0080 286.24)",
+          "oklch(72% 0.0080 286.24)",
+          "oklch(84% 0.0080 286.24)",
+          "oklch(95% 0.0080 286.24)"
+        ]
+      },
+      "light-control-border": {
+        "role": "neutral",
+        "displayName": "Light Control Border",
+        "canonical": "#a1a1ad",
+        "tonalRamp": [
+          "oklch(15% 0.0173 285.95)",
+          "oklch(26% 0.0173 285.95)",
+          "oklch(38% 0.0173 285.95)",
+          "oklch(49% 0.0173 285.95)",
+          "oklch(61% 0.0173 285.95)",
+          "oklch(72% 0.0173 285.95)",
+          "oklch(84% 0.0173 285.95)",
+          "oklch(95% 0.0173 285.95)"
+        ]
+      },
+      "light-control-border-hover": {
+        "role": "neutral",
+        "displayName": "Light Control Border Hover",
+        "canonical": "#747480",
+        "tonalRamp": [
+          "oklch(15% 0.0183 285.80)",
+          "oklch(26% 0.0183 285.80)",
+          "oklch(38% 0.0183 285.80)",
+          "oklch(49% 0.0183 285.80)",
+          "oklch(61% 0.0183 285.80)",
+          "oklch(72% 0.0183 285.80)",
+          "oklch(84% 0.0183 285.80)",
+          "oklch(95% 0.0183 285.80)"
+        ]
+      },
+      "light-control-danger": {
+        "role": "primary",
+        "displayName": "Light Control Danger",
+        "canonical": "#a91c39",
+        "tonalRamp": [
+          "oklch(15% 0.1739 16.60)",
+          "oklch(26% 0.1739 16.60)",
+          "oklch(38% 0.1739 16.60)",
+          "oklch(49% 0.1739 16.60)",
+          "oklch(61% 0.1739 16.60)",
+          "oklch(72% 0.1739 16.60)",
+          "oklch(84% 0.1739 16.60)",
+          "oklch(95% 0.1739 16.60)"
+        ]
+      },
+      "light-control-danger-bg": {
+        "role": "primary",
+        "displayName": "Light Control Danger Bg",
+        "canonical": "#fff4f6",
+        "tonalRamp": [
+          "oklch(15% 0.0121 4.74)",
+          "oklch(26% 0.0121 4.74)",
+          "oklch(38% 0.0121 4.74)",
+          "oklch(49% 0.0121 4.74)",
+          "oklch(61% 0.0121 4.74)",
+          "oklch(72% 0.0121 4.74)",
+          "oklch(84% 0.0121 4.74)",
+          "oklch(95% 0.0121 4.74)"
+        ]
+      },
+      "light-control-danger-border": {
+        "role": "primary",
+        "displayName": "Light Control Danger Border",
+        "canonical": "#cb7d8e",
+        "tonalRamp": [
+          "oklch(15% 0.0987 5.92)",
+          "oklch(26% 0.0987 5.92)",
+          "oklch(38% 0.0987 5.92)",
+          "oklch(49% 0.0987 5.92)",
+          "oklch(61% 0.0987 5.92)",
+          "oklch(72% 0.0987 5.92)",
+          "oklch(84% 0.0987 5.92)",
+          "oklch(95% 0.0987 5.92)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-web": {
+        "displayName": "Web display",
+        "purpose": "Large-screen landing headline."
+      },
+      "display-web-mobile": {
+        "displayName": "Mobile web display",
+        "purpose": "Landing headline at widths up to 720px."
+      },
+      "headline-web": {
+        "displayName": "Web section headline",
+        "purpose": "Default landing section headings with scoped section overrides."
+      },
+      "headline-desktop": {
+        "displayName": "Desktop page headline",
+        "purpose": "Main workspace page title."
+      },
+      "body-web": {
+        "displayName": "Web baseline",
+        "purpose": "Document baseline; supporting paragraphs use smaller scoped roles."
+      },
+      "body-desktop": {
+        "displayName": "Desktop supporting copy",
+        "purpose": "Page introduction, up to 65ch."
+      },
+      "label-web": {
+        "displayName": "Web action label",
+        "purpose": "Primary landing actions."
+      },
+      "label-desktop": {
+        "displayName": "Desktop action label",
+        "purpose": "Default desktop buttons."
+      },
+      "eyebrow-desktop": {
+        "displayName": "Desktop eyebrow",
+        "purpose": "Small uppercase listening-page lead-in."
+      },
+      "label-desktop-compact": {
+        "displayName": "Compact desktop action label",
+        "purpose": "Small desktop buttons at 13px, preserving the default 20px control line height."
+      }
+    },
+    "shadows": [
+      {
+        "name": "web-preview",
+        "value": "0 30px 70px #0004",
+        "purpose": "Large landing application screenshot."
+      },
+      {
+        "name": "desktop-mini-player",
+        "value": "0 8px 35px #00000026",
+        "purpose": "Floating desktop playback surface."
+      },
+      {
+        "name": "desktop-overflow-menu",
+        "value": "0 12px 35px #00000040",
+        "purpose": "Library action menu."
+      },
+      {
+        "name": "desktop-view-selected",
+        "value": "0 1px 5px #00000015",
+        "purpose": "Selected library view-switch segment."
+      },
+      {
+        "name": "desktop-action",
+        "value": "0 1px 2px #00000014",
+        "purpose": "Structural edge for default and secondary desktop buttons; tertiary, destructive and disabled controls omit it."
+      }
+    ],
+    "motion": [
+      {
+        "name": "desktop-control-transition",
+        "value": "0.18s ease",
+        "purpose": "Desktop border, background, color, shadow and transform feedback."
+      },
+      {
+        "name": "web-action-transition",
+        "value": "background .2s, transform .2s",
+        "purpose": "Web button hover feedback."
+      },
+      {
+        "name": "web-action-hover-lift",
+        "value": "translateY(-2px)",
+        "purpose": "Enabled web primary actions on hover."
+      },
+      {
+        "name": "desktop-control-press",
+        "value": "scale(0.985)",
+        "purpose": "Enabled desktop buttons while pressed."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Preserve source overrides for designated playback/download animation; web suppresses animations, transitions and smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "web-tablet-max",
+        "value": "1000px"
+      },
+      {
+        "name": "web-mobile-max",
+        "value": "720px"
+      },
+      {
+        "name": "desktop-compact-width-max",
+        "value": "1150px"
+      },
+      {
+        "name": "desktop-compact-height-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Web primary action",
+      "kind": "button",
+      "description": "Landing action. The current fallback links to the installer availability explanation.",
+      "html": "<a class=\"ds-web-primary\" href=\"#download\">Download em breve</a>",
+      "css": ".ds-web-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--orbe-accent,#ff647e);color:#201318;border:0;border-radius:8px;padding:15px 23px;min-height:54px;font-size:14px;line-height:1.4;font-weight:750;text-decoration:none;transition:background .2s,transform .2s;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-web-primary:hover{background:#ff8ca0;transform:translateY(-2px)}.ds-web-primary:focus-visible{outline:2px solid var(--orbe-accent,#ff647e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-web-primary{transition:none}}",
+      "refersTo": "button-primary-web"
+    },
+    {
+      "name": "Desktop primary",
+      "kind": "button",
+      "description": "Primary desktop action; 44px default, visible at rest in both themes.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Adicionar arquivos</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex-shrink:0;border:1px solid var(--control-border,#64646e);border-radius:8px;height:44px;padding:0 20px;font-size:14px;line-height:20px;font-weight:600;white-space:nowrap;text-decoration:none;cursor:pointer;box-shadow:0 1px 2px #00000014;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease;font-family:var(--orbe-font,'Plus Jakarta Sans Variable','Segoe UI',sans-serif);background:#d92b4b;border-color:#d92b4b;color:#fff;}.ds-primary:hover:not(:disabled){background:#bf1d3d;border-color:#bf1d3d;color:#fff;}.ds-primary:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-primary:active:not(:disabled){transform:scale(.985)}.ds-primary:disabled{opacity:.42;pointer-events:none;box-shadow:none}.ds-primary[data-size=\"sm\"]{height:36px;padding:0 12px;font-size:13px}.ds-primary[data-size=\"icon\"]{width:40px;height:40px;padding:0}.ds-primary[aria-pressed=\"true\"]{border-color:var(--music-accent,#ff647e);color:var(--music-accent,#ff647e);background:color-mix(in srgb,var(--music-accent,#ff647e) 12%,var(--control-subtle,#2b2b30))}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}",
+      "refersTo": "button-primary-desktop"
+    },
+    {
+      "name": "Desktop secondary",
+      "kind": "button",
+      "description": "Neutral secondary action using semantic dark/light control surfaces and borders.",
+      "html": "<button type=\"button\" class=\"ds-secondary\">Cancelar</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex-shrink:0;border:1px solid var(--control-border,#64646e);border-radius:8px;height:44px;padding:0 20px;font-size:14px;line-height:20px;font-weight:600;white-space:nowrap;text-decoration:none;cursor:pointer;box-shadow:0 1px 2px #00000014;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease;font-family:var(--orbe-font,'Plus Jakarta Sans Variable','Segoe UI',sans-serif);background:var(--control-surface,#36363c);color:var(--control-text,#f6f5f7);}.ds-secondary:hover:not(:disabled){background:var(--control-surface-hover,#43434b);border-color:var(--control-border-hover,#898994);}.ds-secondary:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-secondary:active:not(:disabled){transform:scale(.985)}.ds-secondary:disabled{opacity:.42;pointer-events:none;box-shadow:none}.ds-secondary[data-size=\"sm\"]{height:36px;padding:0 12px;font-size:13px}.ds-secondary[data-size=\"icon\"]{width:40px;height:40px;padding:0}.ds-secondary[aria-pressed=\"true\"]{border-color:var(--music-accent,#ff647e);color:var(--music-accent,#ff647e);background:color-mix(in srgb,var(--music-accent,#ff647e) 12%,var(--control-subtle,#2b2b30))}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}",
+      "refersTo": "button-secondary-desktop"
+    },
+    {
+      "name": "Desktop ghost",
+      "kind": "button",
+      "description": "Tertiary action through the existing ghost API: subtly filled and outlined at rest.",
+      "html": "<button type=\"button\" class=\"ds-ghost\">Ver detalhes</button>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex-shrink:0;border:1px solid var(--control-border,#64646e);border-radius:8px;height:44px;padding:0 20px;font-size:14px;line-height:20px;font-weight:600;white-space:nowrap;text-decoration:none;cursor:pointer;box-shadow:0 1px 2px #00000014;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease;font-family:var(--orbe-font,'Plus Jakarta Sans Variable','Segoe UI',sans-serif);background:var(--control-subtle,#2b2b30);color:var(--control-text,#f6f5f7);box-shadow:none;}.ds-ghost:hover:not(:disabled){background:var(--control-subtle-hover,#39393f);border-color:var(--control-border-hover,#898994);}.ds-ghost:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-ghost:active:not(:disabled){transform:scale(.985)}.ds-ghost:disabled{opacity:.42;pointer-events:none;box-shadow:none}.ds-ghost[data-size=\"sm\"]{height:36px;padding:0 12px;font-size:13px}.ds-ghost[data-size=\"icon\"]{width:40px;height:40px;padding:0}.ds-ghost[aria-pressed=\"true\"]{border-color:var(--music-accent,#ff647e);color:var(--music-accent,#ff647e);background:color-mix(in srgb,var(--music-accent,#ff647e) 12%,var(--control-subtle,#2b2b30))}@media(prefers-reduced-motion:reduce){.ds-ghost{transition:none}}",
+      "refersTo": "button-ghost-desktop"
+    },
+    {
+      "name": "Desktop destructive",
+      "kind": "button",
+      "html": "<button type=\"button\" class=\"ds-destructive\">Remover registro</button>",
+      "refersTo": "button-destructive-desktop",
+      "description": "Tinted danger action for record removal and confirmation; semantic dark/light palette.",
+      "css": ".ds-destructive{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex-shrink:0;border:1px solid var(--control-border,#64646e);border-radius:8px;height:44px;padding:0 20px;font-size:14px;line-height:20px;font-weight:600;white-space:nowrap;text-decoration:none;cursor:pointer;box-shadow:0 1px 2px #00000014;transition:border-color .18s ease,background-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease;font-family:var(--orbe-font,'Plus Jakarta Sans Variable','Segoe UI',sans-serif);background:var(--control-danger-bg,#35242b);color:var(--control-danger,#ff9aae);border-color:var(--control-danger-border,#9b5364);box-shadow:none;}.ds-destructive:hover:not(:disabled){background:color-mix(in srgb,var(--control-danger,#ff9aae) 16%,var(--control-danger-bg,#35242b));border-color:var(--control-danger,#ff9aae);}.ds-destructive:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-destructive:active:not(:disabled){transform:scale(.985)}.ds-destructive:disabled{opacity:.42;pointer-events:none;box-shadow:none}.ds-destructive[data-size=\"sm\"]{height:36px;padding:0 12px;font-size:13px}.ds-destructive[data-size=\"icon\"]{width:40px;height:40px;padding:0}.ds-destructive[aria-pressed=\"true\"]{border-color:var(--music-accent,#ff647e);color:var(--music-accent,#ff647e);background:color-mix(in srgb,var(--music-accent,#ff647e) 12%,var(--control-subtle,#2b2b30))}@media(prefers-reduced-motion:reduce){.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Desktop library search",
+      "kind": "input",
+      "description": "The compound container owns the focus outline and inherits desktop semantic theme colors.",
+      "html": "<label class=\"ds-search\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Buscar na biblioteca\" placeholder=\"Buscar m&#250;sicas, artistas...\" /></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:9px;width:260px;max-width:100%;border:1px solid var(--music-border,var(--orbe-border,rgb(255 255 255 / 8%)));background:var(--music-hover,rgb(255 255 255 / 5%));border-radius:9px;color:var(--music-muted,var(--orbe-muted,#a3a2aa));padding:9px 12px;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-search input{width:100%;min-width:0;font-size:14px;background:transparent;outline:none;border:0;color:var(--music-text,var(--orbe-text,#f6f5f7));font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-search:focus-within{outline:2px solid var(--music-accent,var(--orbe-accent,#ff647e));outline-offset:2px}.ds-search input:focus-visible{outline:none}",
+      "refersTo": "search-desktop"
+    },
+    {
+      "name": "Desktop navigation row",
+      "kind": "nav",
+      "description": "Sidebar selection and hover states, with current-page semantics.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navega&#231;&#227;o principal\"><button aria-current=\"page\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M3 3v18M8 3v18M13 4l5-1 4 17-5 1z\"/></svg>Biblioteca</button><button type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M3 3v18M8 3v18M13 4l5-1 4 17-5 1z\"/></svg>Playlists</button></nav>",
+      "css": ".ds-nav{width:192px;padding:8px;background:var(--music-sidebar,var(--orbe-sidebar,#202023));font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-nav button{display:flex;align-items:center;gap:12px;width:100%;height:38px;padding:0 12px;border:0;border-radius:8px;text-align:left;font-size:14px;background:transparent;color:var(--music-text,var(--orbe-text,#f6f5f7));cursor:pointer;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-nav svg{color:var(--music-accent,var(--orbe-accent,#ff647e))}.ds-nav button[aria-current=\"page\"]{background:rgb(250 69 98 / 12%);color:var(--music-accent,var(--orbe-accent,#ff647e));font-weight:600}.ds-nav button:not([aria-current=\"page\"]):hover{background:var(--music-hover,rgb(255 255 255 / 5%))}.ds-nav button:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-nav button:active{transform:scale(.985)}",
+      "refersTo": "nav-item-desktop"
+    },
+    {
+      "name": "Collection count",
+      "kind": "custom",
+      "description": "Muted inline metadata rather than an interactive chip.",
+      "html": "<span class=\"ds-count\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M7 12a5 5 0 0 1 5-5m0 10a5 5 0 0 0 5-5\"/></svg>12 na cole&#231;&#227;o</span>",
+      "css": ".ds-count{display:inline-flex;align-items:center;gap:7px;color:var(--music-muted,var(--orbe-muted,#a3a2aa));font-size:12px;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}",
+      "refersTo": "collection-count"
+    },
+    {
+      "name": "Open library grid item",
+      "kind": "card",
+      "description": "Desktop artwork-and-text group without an enclosing card surface; sample uses the implemented artwork fallback.",
+      "html": "<article class=\"ds-library\"><div class=\"ds-library-art\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M7 12a5 5 0 0 1 5-5m0 10a5 5 0 0 0 5-5\"/></svg></div><h2>Faixa de demonstra&#231;&#227;o</h2><p>Artista da cole&#231;&#227;o</p><button type=\"button\" aria-label=\"Reproduzir faixa\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"/></svg></button></article>",
+      "css": ".ds-library{width:200px;color:var(--music-text,var(--orbe-text,#f6f5f7));background:transparent;border:0;box-shadow:none;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-library-art{display:grid;place-items:center;width:100%;aspect-ratio:1;border-radius:10px;background:linear-gradient(145deg,#6c5866,#3d4259);color:#d9c4d4;margin-bottom:12px}.ds-library-art>svg{width:50px;height:50px;stroke-width:1.2}.ds-library h2{margin:0;font-size:14px;font-weight:600}.ds-library p{margin:5px 0;color:var(--music-muted,var(--orbe-muted,#a3a2aa));font-size:12px}.ds-library button{display:grid;place-items:center;width:32px;height:32px;margin-top:8px;padding:0;border:0;border-radius:50%;color:var(--music-bg,var(--orbe-bg,#19191c));background:var(--music-text,var(--orbe-text,#f6f5f7));cursor:pointer}.ds-library button:hover{opacity:.85}.ds-library button:focus-visible{outline:2px solid var(--orbe-focus,#ff647e);outline-offset:3px}.ds-library button:active{transform:scale(.985)}"
+    },
+    {
+      "name": "Orbital identity",
+      "kind": "custom",
+      "description": "Canonical shared SVG with the web wordmark treatment.",
+      "html": "<a class=\"ds-brand\" href=\"#\" aria-label=\"Orbe\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\">\n  <title>Orbe</title>\n  <defs><mask id=\"ds-orbit-gap\"><rect width=\"64\" height=\"64\" fill=\"white\"/><path d=\"M12 44c5 2 16-1 26-8S55 22 54 17\" stroke=\"black\" stroke-width=\"10\" stroke-linecap=\"round\"/></mask></defs>\n  <circle cx=\"32\" cy=\"32\" r=\"21\" stroke=\"#ff647e\" stroke-width=\"7\" mask=\"url(#ds-orbit-gap)\"/>\n  <path d=\"M10 42c4 4 17 0 29-8s19-17 15-21\" stroke=\"#ff647e\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n</svg>\n<span>orbe</span></a>",
+      "css": ".ds-brand{display:inline-flex;align-items:center;gap:8px;color:var(--orbe-text,#f6f5f7);text-decoration:none;font-family:var(--orbe-font,'Plus Jakarta Sans Variable',sans-serif);}.ds-brand>svg{width:40px;height:40px}.ds-brand span{font-size:32px;line-height:1;font-weight:750;letter-spacing:-.04em}.ds-brand:focus-visible{outline:2px solid var(--orbe-accent,#ff647e);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Sua coleção, na sua órbita",
+    "overview": "Orbe gives a personal music and video collection a recognizable home. Its established identity combines graphite surfaces, a coral orbital mark and Plus Jakarta Sans. The interface uses quiet neutral layers, clear type and coral interaction cues; media artwork supplies much of the visual variety.\n\nThis document records the implemented shared identity and the two surfaces that use it. The desktop is a dense, persistent library workspace with dark and light themes. The public web page uses the same identity with larger type, wider spacing and real desktop captures. Its centered opening, chapter sequence and editorial sections belong to that landing surface; they are not requirements for every future screen. The direction contract remains in `.impeccable/surfaces/orbe-landing.md`.",
+    "keyCharacteristics": [
+      "Graphite neutrals with a recognizable coral accent.",
+      "One variable sans family across brand, content and controls.",
+      "Soft rectangular controls and circular playback geometry.",
+      "Media-led content with restrained borders and selective elevation.",
+      "A supported light desktop theme alongside the shared dark identity."
+    ],
+    "rules": [
+      {
+        "name": "The Shared Identity Rule",
+        "body": "Reuse the shared brand tokens for the dark identity. Preserve the desktop's semantic theme mapping when adding app surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Recognizable Action Rule",
+        "body": "Desktop actions remain visibly bounded and filled before hover; preserve semantic primary, secondary, tertiary and destructive hierarchy in dark and light themes.",
+        "section": "components"
+      },
+      {
+        "name": "The Related Actions Rule",
+        "body": "Group actions by the decision they support, with 8px within a compact group and 12px between recovery groups. Keep file/folder location together; place redownload and record removal in a separate group, aligned to the end when space permits and below at compact widths. Confirmation copy occupies its own full row above the choices.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** use the shared orbital asset, graphite/coral tokens and Plus Jakarta Sans across web and desktop.",
+      "**Do** keep desktop surfaces and controls connected to semantic light/dark theme variables.",
+      "**Do** give desktop actions visible resting borders and fills, with clear semantic variants and grouped related choices.",
+      "**Do** preserve visible focus, keyboard navigation and reduced-motion behavior when extending existing patterns.",
+      "**Do** let real media and application captures carry the visual content, with demonstration media labeled where used.",
+      "**Do** fit spacing and typography to the surface: spacious web presentation and compact desktop workspace."
+    ],
+    "donts": [
+      "**Don't** distort or redraw the shared orbital mark independently on each surface.",
+      "**Don't** turn the landing's centered hero, chapter sequence or editorial layout into global screen requirements.",
+      "**Don't** remove the desktop light theme when applying the shared dark identity.",
+      "**Don't** add enclosing filled cards to library grid items that currently use open artwork-and-text composition.",
+      "**Don't** style the unavailable installer status as an enabled download control."
+    ]
+  }
+}

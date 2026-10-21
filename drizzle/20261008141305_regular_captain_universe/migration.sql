@@ -1,0 +1,1 @@
+ALTER TABLE `playlist_import_items` ADD `linked` integer DEFAULT false NOT NULL;
