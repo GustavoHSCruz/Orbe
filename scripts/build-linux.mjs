@@ -31,5 +31,5 @@ if (homepage) {
   console.log(
     'Building AppImage. To also build .deb, set ORBE_PROJECT_URL to the project URL and ORBE_MAINTAINER to your maintainer identity.',
   )
-args.push('--x64')
+args.push('--x64', '--publish', 'never')
 execFileSync(process.execPath, args, { stdio: 'inherit' })

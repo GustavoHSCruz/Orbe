@@ -36,6 +36,8 @@ Os nomes dos pacotes de sistema variam entre distribuições. Estes comandos des
 
 Depois de enviar o repositório ao GitHub, abra **Actions → Linux build → Run workflow**. Baixe `orbe-linux-x64` em Artifacts. Tags `v*` também disparam a compilação. O workflow precisa passar antes de anunciar Linux como disponível na landing page.
 
+O script de empacotamento passa `--publish never` ao electron-builder para impedir a publicação automática ao detectar o CI ou uma tag. Esse fluxo não precisa de `GH_TOKEN`: os instaladores são disponibilizados em Artifacts e podem ser anexados manualmente a uma release.
+
 ## Verificações antes de distribuir
 
 Teste importar arquivos e várias pastas, reprodução de áudio e vídeo, capa ao recolher o vídeo, conversão, downloads, recuperação de arquivos movidos/excluídos, temas e persistência após reiniciar. Confirme também Wayland/X11, áudio, permissões de unidades externas, sessão de navegador, integração com Discord e o cofre de credenciais do desktop. Contas devem ser conectadas novamente ao migrar de Windows: não copie tokens criptografados entre sistemas.
