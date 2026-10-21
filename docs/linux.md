@@ -32,6 +32,17 @@ O AppImage fica em `dist/`. Para gerar também um `.deb` localmente, defina `ORB
 
 Os nomes dos pacotes de sistema variam entre distribuições. Estes comandos descrevem Ubuntu 24.04; não são uma promessa de compatibilidade com todas as distribuições ou ARM.
 
+## Arch Linux (e derivados: CachyOS, EndeavourOS, Manjaro)
+
+`packaging/arch/PKGBUILD` compila a tag da versão a partir do código-fonte e gera um pacote pacman nativo, sem AppImage. Ele instala o aplicativo em `/opt/orbe`, o comando `orbe`, o ícone e o atalho do menu, e declara `ffmpeg` e `yt-dlp` do repositório oficial como dependências.
+
+```bash
+cd packaging/arch
+makepkg -si
+```
+
+Para remover: `sudo pacman -R orbe`. Ao lançar uma nova versão, atualize `pkgver` no PKGBUILD e regenere o `.SRCINFO` com `makepkg --printsrcinfo > .SRCINFO`. Os mesmos dois arquivos, com `orbe.desktop`, podem ser publicados no AUR.
+
 ## Gerar pelo GitHub Actions
 
 Depois de enviar o repositório ao GitHub, abra **Actions → Linux build → Run workflow**. Baixe `orbe-linux-x64` em Artifacts. Tags `v*` também disparam a compilação. O workflow precisa passar antes de anunciar Linux como disponível na landing page.

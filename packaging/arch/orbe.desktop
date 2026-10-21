@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Orbe
+Comment=Personal music and video library
+Exec=orbe %U
+Icon=orbe
+Type=Application
+Categories=AudioVideo;Audio;Video;Player;
+StartupWMClass=Orbe

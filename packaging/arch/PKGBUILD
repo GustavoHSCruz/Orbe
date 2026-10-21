@@ -1,0 +1,35 @@
+# Maintainer: Orbe
+
+pkgname=orbe
+pkgver=0.2.1
+pkgrel=1
+pkgdesc='Personal music and video library'
+arch=('x86_64')
+url='https://github.com/guilhermeSDB/Orbe'
+license=('MIT')
+depends=('gtk3' 'nss' 'alsa-lib' 'mesa' 'libxss' 'libxtst' 'libsecret' 'ffmpeg' 'yt-dlp')
+makedepends=('git' 'nodejs' 'npm')
+options=('!strip' '!debug')
+source=("$pkgname::git+$url.git#tag=v$pkgver"
+        'orbe.desktop')
+sha256sums=('SKIP'
+            'cd605ab078417fb6facdf1ac6c978a9c80b4aeb72cd9426f4d8d8e4b7a7ee2c1')
+
+build() {
+  cd "$pkgname"
+  # Same flow as docs/linux.md; Git LFS only holds the Windows binaries.
+  export GIT_LFS_SKIP_SMUDGE=1 ELECTRON_BUILDER_CACHE="$srcdir/.electron-builder"
+  npm ci --ignore-scripts --no-audit --no-fund
+  node node_modules/electron/install.js
+  npx electron-vite build
+  npx electron-builder --linux dir --x64 --publish never
+}
+
+package() {
+  cd "$pkgname"
+  install -d "$pkgdir/opt/orbe" "$pkgdir/usr/bin"
+  cp -a dist/linux-unpacked/. "$pkgdir/opt/orbe/"
+  ln -s /opt/orbe/orbe "$pkgdir/usr/bin/orbe"
+  install -Dm644 resources/icon.png "$pkgdir/usr/share/icons/hicolor/512x512/apps/orbe.png"
+  install -Dm644 "$srcdir/orbe.desktop" "$pkgdir/usr/share/applications/orbe.desktop"
+}
